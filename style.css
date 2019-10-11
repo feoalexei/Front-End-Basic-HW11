@@ -308,18 +308,20 @@
 .about_us {
     background-color: #ffc155;
 }
+
 .container_about {
     max-width: 1700px;
     margin: 0 auto;
     position: relative;
+    height: 623px;
 }
 
 .about_us_image {
     width: 50%;
-    height: 623px;
+    height: 100%;
     background-image: url(images/table.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     float: left;
 }
 
@@ -329,6 +331,13 @@
     color: #ffffff;
     float: right;
 }
+
+@media screen and (max-width: 1200px) {
+    .about_us_content {
+        padding: 164px 90px 0 90px;
+    }
+}
+
 
 .about_us_title {
     font-family:'Gotham';
