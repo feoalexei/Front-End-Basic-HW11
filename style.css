@@ -313,7 +313,6 @@
     max-width: 1700px;
     margin: 0 auto;
     position: relative;
-    height: 623px;
 }
 
 .about_us_image {
@@ -323,19 +322,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     float: left;
+    position: absolute;
 }
 
 .about_us_content {
-    padding: 164px 255px 0 90px;
+    padding: 164px 255px 150px 90px;
     width: 50%;
     color: #ffffff;
     float: right;
-}
-
-@media screen and (max-width: 1200px) {
-    .about_us_content {
-        padding: 164px 90px 0 90px;
-    }
 }
 
 
